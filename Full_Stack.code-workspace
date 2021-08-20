@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "..\\Python Codes"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Web_Tech_Works"
+    }
+}

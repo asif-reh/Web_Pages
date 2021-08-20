@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+}
+
+header{
+    padding: 20px 0px;
+    background: #1488CC;  /* fallback for old browsers */
+    background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #2B32B2, #1488CC); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    height: 40vh;
+}
+
+
+.max-width{
+    max-width: 90%;
+    margin: auto;
+}
+
+.go-back{
+    background-color: #0058ca;
+    opacity: 80%;
+    box-shadow: var(--box-shadow);
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+.go-back i{
+    position: relative;
+    top: 2px;
+}
+
+.profile-page-heading{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 30px 0px 25px 0px;
+}
+
+.profile-data{
+    display: flex;
+    align-items: center;
+}
+
+.profileImg-name-edit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.profile-img img{
+    width: 45px;
+}
+
+.profileImg-name-edit img{
+    margin-right: 10px;
+}
+
+.name-profile p:first-child{
+    font-size: 19px;
+    font-weight: 500;
+}
+.name-profile p:last-child{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.edit-profile-icon{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.edit-profile-icon i{
+    font-size: 14px;
+}
+
+/* Designing Bottom Menu Area for Profile */
+
+.profile-bottom-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.profile-bottom-menu p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.Bottom-profile-area{
+    height: 60vh;
+    padding: 20px 0px;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.underline-bottom-menu-profile{
+    height: 1px;
+    width: 100%;
+    background-color: #cccccc;
+    position: relative;
+    bottom: 0px;
+}
+
+.all-menus-profile{
+    margin: 20px 0px;
+}
+
+.signOut-profile p{
+    color: rgb(214, 57, 57);
+    font-weight: 500;
+}
+.signOut-profile i{
+    color: rgb(214, 57, 57);
+}
+
+.website-version p{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
